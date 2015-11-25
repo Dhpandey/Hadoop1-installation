@@ -76,6 +76,9 @@ stop-all.sh
 
 #Test 
 Namenode:
-localhost:50070
- JobTracker:
- localhost:50030
+
+  localhost:50070
+
+JobTracker:
+
+  localhost:50030
