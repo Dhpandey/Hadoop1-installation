@@ -47,20 +47,21 @@ $sudo chmod 750 /app/hadoop/tmp
 #Configuration
 Changes in following files inside hadoop/conf 
 (copy from above configuration)
-hadoop-env.sh
-core-site.xml
-mapred-site.xml
-hdf-site.xml
+ hadoop-env.sh
+ core-site.xml
+ mapred-site.xml
+ hdf-site.xml
 
 #RUN:
 start:
-start-all.sh
+  start-all.sh
 
 stop
-stop-all.sh
+  stop-all.sh
 
 #Test 
 Namenode:
-localhost:50070
- JobTracker:
- localhost:50030
+  localhost:50070
+
+JobTracker:
+  localhost:50030
