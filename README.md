@@ -1,5 +1,5 @@
 # Hadoop1-installation
-#note : Hadoop2 needs different setting and configuration
+Note : Hadoop2 needs different setting and configuration
 Installation steps with demo for hadoop 1.2.1
 
 #SINGLE-NODE INSTALLATION
