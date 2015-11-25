@@ -2,7 +2,7 @@
 #note : Hadoop2 needs different setting and configuration
 Installation steps with demo for hadoop 1.2.1
 
-SINGLE-NODE INSTALLATION
+#SINGLE-NODE INSTALLATION
 
 Install jdk 1.6 or above
 confirm 
@@ -31,10 +31,9 @@ $shows some log of successful connection
 Main Installation
 $su - hadoopuser1
 
-add following to .bashrc
-# Set Hadoop-related environment variables
-export HADOOP_HOME=/usr/local/hadoop
-# Add Hadoop bin/ directory to PATH
+#add following to .bashrc
+Set Hadoop-related environment variables
+export HADOOP_HOME=/opt/hadoop
 export PATH= $PATH:$HADOOP_HOME/bin
 
 
