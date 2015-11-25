@@ -28,22 +28,23 @@ test:
 $ssh localhost
 $shows some log of successful connection
 
-Main Installation
+#Main Installation
 $su - hadoopuser1
 
-#add following to .bashrc
-Set Hadoop-related environment variables
+Add following to .bashrc
+
 export HADOOP_HOME=/opt/hadoop
 export PATH= $PATH:$HADOOP_HOME/bin
 
 
 
 Now we create the directory and set the required ownerships and permissions
+
 $sudo mkdir -p /app/hadoop/tmp
 $sudo chown hduser:hadoop /app/hadoop/tmp
 $sudo chmod 750 /app/hadoop/tmp
 
-Configuration
+#Configuration
 Changes in following files inside hadoop/conf 
 (copy from above configuration)
 hadoop-env.sh
@@ -51,14 +52,14 @@ core-site.xml
 mapred-site.xml
 hdf-site.xml
 
-RUN:
+#RUN:
 start:
 start-all.sh
 
 stop
 stop-all.sh
 
-test 
+#Test 
 Namenode:
 localhost:50070
  JobTracker:
