@@ -12,9 +12,11 @@ $java -version
 Adding a dedicated Hadoop system user
 
 $ sudo addgroup hadoop_group
+
 $ sudo adduser --ingroup hadoop_group hadoopuser1
 
 Add hadoopuser1 to hadoop_group 
+
 $sudo adduser hduser1 sudo
 
 Configuring SSH
