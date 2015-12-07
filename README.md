@@ -2,6 +2,10 @@
 Note : Hadoop2 needs different setting and configuration  
 Installation steps with demo for hadoop 1.2.1
 
+#Prerequisites
+Os:linux
+jdk 1.6 and above
+
 Download 1.2.1
 Source: https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/
 
