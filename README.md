@@ -1,5 +1,5 @@
 # Hadoop1-installation
-Note : Hadoop2 needs different setting and configuration
+Note : Hadoop2 needs different setting and configuration  
 Installation steps with demo for hadoop 1.2.1
 Download 1.2.1
 Source: https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/
