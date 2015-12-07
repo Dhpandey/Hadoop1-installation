@@ -46,9 +46,11 @@ $cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 
 Test:
 $ssh localhost
+
 shows some log of successful connection
 
 Step 5 : #Main Installation
+
 $su - hadoopuser1
 
 Step 6 : Add following to .bashrc
