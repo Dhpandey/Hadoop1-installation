@@ -6,7 +6,7 @@ Hadoop2 needs different setting and configuration
 Installation steps with demo for hadoop 1.2.1
 
 #Prerequisites
-Os:linux
+Os: Linux 
 
 jdk 1.6 and above
 
