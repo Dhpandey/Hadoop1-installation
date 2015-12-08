@@ -25,7 +25,7 @@ Step 2: Adding a dedicated Hadoop system user(optional)
 
     $ sudo addgroup hadoop_group
 
-      $ sudo adduser --ingroup hadoop_group hadoopuser1
+    $ sudo adduser --ingroup hadoop_group hadoopuser1
 
 Step 3 :Add hadoopuser1 to hadoop_group (optional)
 
@@ -60,7 +60,7 @@ shows some log for successful connection
 
 Step 5 : Add following to .bashrc
 
-     export HADOOP_HOME=/opt/hadoop (location id hadoop)
+     export HADOOP_HOME=/opt/hadoop (location of hadoop)
 
      export PATH= $PATH:$HADOOP_HOME/bin
 
@@ -74,7 +74,7 @@ Step 6: Now we create the directory and set the required ownerships and permissi
 
 #Configuration
 Step 7 : Changes in following files inside hadoop/conf 
-(copy from above configuration)
+(copy from above configuration or download from https://github.com/Dhpandey/Hadoop1-installation.git)
 
      hadoop-env.sh
 
