@@ -114,3 +114,41 @@ Namenode:
 JobTracker:
 
       localhost:50030
+      
+      
+      
+##############################Steps to run first programm using hadoop:###########################
+
+Running MapReduce job
+
+Step 1:
+        $mkdir javafolder
+//to store compiled java classes
+
+Step 2:
+      Download hadoop-core-version.jar
+
+Step 3: 
+      Ceate jar file:
+
+      $javac -classpath hadoop-core-version.jar -d javafolder test.java
+      $jar -cvf  test.jar -C javafolder/ .
+
+Step 4:
+  create  input directory in hdfs:
+
+      $hadoop fs -mkdir inputfolder
+
+Step5 :
+  Copy input data from local to hdfs direcrtory:
+
+      $hadoop fs -put  inputdata.txt inputdata.txt inputfolder
+
+Step 6:
+  RUN  command
+    $hadoop jar test.jar package.className inputfolder outputfolder
+
+Track the process in jobtracker :localhost:50030
+and check the output in ouputfolder if all completed
+
+
