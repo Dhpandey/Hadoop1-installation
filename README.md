@@ -62,7 +62,7 @@ Step 5 : Add following to .bashrc
 
      export HADOOP_HOME=/opt/hadoop (location of hadoop)
 
-     export PATH= $PATH:$HADOOP_HOME/bin
+     export PATH=$PATH:$HADOOP_HOME/bin
 
 Step 6: Now we create the directory and set the required ownerships and permissions
 
