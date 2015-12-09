@@ -116,8 +116,10 @@ JobTracker:
       localhost:50030
       
       
-      
-#Steps to run first programm using hadoop
+    
+    ##########################################################################
+    
+#Steps to run first program using hadoop
 
 Running MapReduce job
 
