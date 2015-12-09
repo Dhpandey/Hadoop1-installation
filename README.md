@@ -125,7 +125,8 @@ JobTracker:
 Running MapReduce job
 
 Step 1:
-        $mkdir javafolder
+      $mkdir javafolder
+            
 //to store compiled java classes
 
 Step 2:
