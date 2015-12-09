@@ -117,7 +117,7 @@ JobTracker:
       
       
       
-##############################Steps to run first programm using hadoop:###########################
+#Steps to run first programm using hadoop
 
 Running MapReduce job
 
