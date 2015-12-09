@@ -49,6 +49,7 @@ This creates  an RSA key pair with an empty password. (-p “ ”)
      $cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 
 Test:
+
     $sudo apt-get install ssh (if ssh is not installed)
     
     $ssh localhost
