@@ -152,7 +152,8 @@ Step5 :
 
 Step 6:
   RUN  command
-    $hadoop jar test.jar package.className inputfolder outputfolder
+  
+      $hadoop jar test.jar package.className inputfolder outputfolder
 
 Track the process in jobtracker :localhost:50030
 and check the output in ouputfolder if all completed
